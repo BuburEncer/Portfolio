@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ibnu Qayyim Portfolio</title>
+
+    <link rel="stylesheet" href="vendors/bootstrap/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="vendors/boxicons/css/boxicons.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="styles/style.css" />
+  </head>
+  <body>
+    <!-- NAVBAR -->
+    <nav class="navbar navbar-expand-lg bg-gray">
+      <div class="container">
+        <a class="navbar-brand fw-bold" href="#">Portfolio</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#header">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#about">About Me</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#services">My Services</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#portfolio">Portfolio</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#contact">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- HEADER -->
+    <section class="header-section" id="header">
+      <div class="container">
+        <div class="row align-items-center justify-content-between">
+          <div class="col-md-6">
+            <h1 class="header-tittle text-uppercase fw-bold mb-5">Ibnu Qayyim <br class="d-none d-md-block" />Al Jauziyah</h1>
+            <p class="text-orange fw-semibold">
+              hello this is my portfolio website my skills and experience in web design and development. it highlights my skills such as HTML, CSS, Javascript, Bootstrap, React JS, Node Js, and several other tools. this website displays
+              examples of projects that I have worked on, showing my skills in creating visually appealing and easy-to-use sites.
+            </p>
+
+            <a href="#" class="header-skill d-inline-flex-align-item-center-gap-2"> Front End Developer <i class="bx bx-right-arrow-alt fs-4"></i> </a> <br />
+            <a href="#" class="header-skill d-inline-flex-align-item-center-gap-2"> Back End Developer <i class="bx bx-right-arrow-alt fs-4"></i> </a> <br />
+            <a href="#" class="header-skill d-inline-flex-align-item-center-gap-2"> App Design <i class="bx bx-right-arrow-alt fs-4"></i> </a>
+          </div>
+          <div class="col-md-5">
+            <img src="images/Ibnu_unsri-removebg-preview.png" alt="" />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- About Me Section -->
+    <section class="about-section" id="about">
+      <div class="container">
+        <h2 class="section-title mb-5 fw-bold text-start">About Me</h2>
+        <p class="about-description">
+          Hello! I am a passionate informatics engineering student with a love for creating beautiful and functional websites. With a background in design and a keen attention to detail, I strive to provide the best user experience
+          possible. best user experience. I enjoy learning new technologies and constantly improving my skills.
+        </p>
+        <div class="row">
+          <div class="col-lg-4">
+            <ul class="nav nav-pills flex-column mb-3" id="myTab" role="tablist">
+              <li class="nav-item">
+                <a class="nav-link active" id="skills-tab" data-bs-toggle="tab" href="#skills" role="tab" aria-controls="skills" aria-selected="true">Skills</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" id="experience-tab" data-bs-toggle="tab" href="#experience" role="tab" aria-controls="experience" aria-selected="false">Experience</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" id="education-tab" data-bs-toggle="tab" href="#education" role="tab" aria-controls="education" aria-selected="false">Education</a>
+              </li>
+            </ul>
+          </div>
+          <div class="col-lg-8">
+            <div class="tab-content" id="myTabContent">
+              <div class="tab-pane fade show active" id="skills" role="tabpanel" aria-labelledby="skills-tab">
+                <h5>Skills</h5>
+                <ul>
+                  <li>HTML</li>
+                  <li>CSS</li>
+                  <li>JavaScript</li>
+                  <li>React Js</li>
+                  <li>Node Js</li>
+                  <li>Bootstrap</li>
+                  <li>MySQL</li>
+                </ul>
+              </div>
+              <div class="tab-pane fade" id="experience" role="tabpanel" aria-labelledby="experience-tab">
+                <h5>Experience</h5>
+                <p>Administration Staff at Himpunan Mahasiswa Informatika (February 2024 - December 2024)</p>
+              </div>
+              <div class="tab-pane fade" id="education" role="tabpanel" aria-labelledby="education-tab">
+                <h5>Education</h5>
+                <p>Undergraduare Informatics Engineering (2023 - present)</p>
+                <p>MAN 3 Palembang (2020 - 2023)</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- My Services -->
+    <section class="services-section" id="services">
+      <div class="container">
+        <p class="text-orange fw-semibold">My Services</p>
+        <h2 class="section-title mb-5 fw-bold text-start">What I Offer</h2>
+        <div class="row">
+          <div class="col-md-4">
+            <div class="service-card">
+              <i class="bx bx-code-alt fs-1 text-orange"></i>
+              <h5 class="service-title">Front End Developer</h5>
+              <p class="service-description">
+                I am experienced in designing and developing responsive and user-friendly websites, using web technologies such as HTML, CSS, Javascript, bootstrap, Node Js. I prioritize aesthetic and intuitive design, while ensuring
+                maximum performance to support user needs. With expertise in modern design and mastery of technology, I can deliver creative and functional digital solutions.
+              </p>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="service-card">
+              <i class="bx bx-code fs-1 text-orange"></i>
+              <h5 class="service-title">Back End Developer</h5>
+              <p class="service-description">
+                I have experience in server-side development, working with technologies such as Node.js and databases. I focus on creating robust and scalable back-end systems that ensure seamless data management and integration with
+                front-end applications.
+              </p>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="service-card">
+              <i class="bx bx-mobile fs-1 text-orange"></i>
+              <h5 class="service-title">App Design</h5>
+              <p class="service-description">
+                I have experience in designing responsive and user experience-centered app designs, using tools like Figma. With an approach that prioritizes aesthetics and functionality, I create interfaces that are intuitive and support
+                easy navigation. My expertise lies in integrating modern design principles with specific user needs to deliver effective and engaging app solutions.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- portfolio -->
+    <section class="portfolio-section" id="portfolio">
+      <div class="container">
+        <p class="text-orange fw-semibold">Portfolio</p>
+        <h2 class="section-title mb-5 fw-bold text-start">Selected Works</h2>
+
+        <div class="swiper portfolio-swiper">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide">
+              <div class="card">
+                <div class="card-body">
+                  <img src="images/Screenshot 2024-12-20 083138.png" alt="" class="card-img-top rounded mb-3" />
+                  <h6 class="fw-semibold text-orange">Traditional cooking recipe website</h6>
+                  <p>Explore a collection of traditional recipes with easy navigation and beautiful design.</p>
+                </div>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="card">
+                <div class="card-body">
+                  <img src="images/Screenshot 2024-12-24 220558.png" alt="" class="card-img-top rounded mb-3" />
+                  <h6 class="fw-semibold text-orange">App Design AirKu</h6>
+                  <p>A user-friendly app design focused on enhancing user experience.</p>
+                </div>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="card">
+                <div class="card-body">
+                  <img src="images/Finansialku (1).png" alt="" class="card-img-top rounded mb-3" />
+                  <h6 class="fw-semibold text-orange">App Design Finansialku</h6>
+                  <p>An intuitive app design for financial management.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact -->
+    <section class="contact-section" id="contact">
+      <div class="container">
+        <div class="row align-item-center justify-content-between">
+          <div class="col-md-6">
+            <p class="text-orange fw-semibold">Contact</p>
+            <h2 class="section-title mb-5 fw-bold text-start">get in touch</h2>
+            <p class="text-secondary mb-3">Please fill out the form on this section to contact with me. Or call between 9:00 a.m. and 8:00 p.m. WIB, Monday through Friday</p>
+
+            <div class="d-flex align-item-center gap-2 mb-3">
+              <i class="bx bx-map-pin text-orange fs-5"></i>
+              <div class="mb-0">Jln. Perintis Kemerdekaan No.1392, Palembang, Sumatera Selatan, Indonesia</div>
+            </div>
+            <div class="d-flex align-item-center gap-2 mb-3">
+              <i class="bx bx-phone-call text-orange fs-5"></i>
+              <div class="mb-0">+6287798125255</div>
+            </div>
+            <div class="d-flex align-item-center gap-2 mb-3">
+              <i class="bx bx-envelope text-orange fs-5"></i>
+              <div class="mb-0">ibn.ibnuqayyim@gmail.com</div>
+            </div>
+
+            <div class="d-flex align-item-center gap-2 mb-3">
+              <i class="bx bxl-instagram text-orange fs-5"></i>
+              <div class="mb-0">buburkokaduk</div>
+            </div>
+            <div class="d-flex align-item-center gap-2 mb-3">
+              <i class="bx bxl-linkedin-square text-orange fs-5"></i>
+              <div class="mb-0">Ibnu Qayyim</div>
+            </div>
+          </div>
+          <div class="col-md-5">
+            <form action="#">
+              <div class="mb-3">
+                <input type="text" name="name" id="name" placeholder="Name" class="form-control" />
+              </div>
+              <div class="mb-3">
+                <input type="text" name="email" id="email" placeholder="Email" class="form-control" />
+              </div>
+              <div class="mb-3">
+                <textarea name="body" id="body" placeholder="Message" cols="30" rows="3" class="form-control"></textarea>
+              </div>
+              <button class="btn-orange w-100 rounded-0">Submit</button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer class="py-3">
+      <div class="container">
+        <p class="text-white fs-7 mb-0">Copyright &copy; 2023 Ibnu Qayyim. All rights reserved.</p>
+      </div>
+    </footer>
+
+    <script src="vendors/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script>
+      var swiper = new Swiper(".portfolio-swiper", {
+        slidesPerView: 3,
+        spaceBetween: 30,
+      });
+    </script>
+  </body>
+</html>
